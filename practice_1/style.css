@@ -46,7 +46,7 @@ li {
 #header {
    display: flex;
    justify-content: space-between;
-   margin: auto 0;
+   margin: 0 auto;
    padding: auto 0px;
 }
 
