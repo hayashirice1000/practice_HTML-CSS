@@ -1,3 +1,30 @@
+img{
+   max-width: 100%;
+} 
+
+.site-title {
+   width: 120px;
+   line-height: 1px;
+   padding: 10px 0;
+}
+
+/* .site-title a {
+   display: block;
+} */
+
+#header ul{
+   display: flex;
+   padding: 10px 0;
+}
+
+#header li {
+   margin-left: 30px
+}
+
+#header a {
+   
+}
+
 #header {
    display: flex;
     justify-content: space-between;
