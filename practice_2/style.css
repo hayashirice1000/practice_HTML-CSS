@@ -1,0 +1,39 @@
+body{
+    color: #333;
+    background-color: #f4f9ff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f4f9ff;
+    margin-top: 60px;
+}
+
+
+#title img{
+    width: 160px;
+}
+
+#mainvisual{
+    object-fit: cover;
+    margin-bottom: 64px;
+}
+
+#index .index{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+#index{
+    background-color: #fff;
+    padding: 32px 60px;
+    text-align: center;
+    list-style-position: inside;
+}
