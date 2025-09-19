@@ -1,9 +1,17 @@
+html {
+   font-size: 100%;
+}
+
 body {
    color: #383e45;
 }
 
 a {
    text-decoration: none
+}
+
+li {
+   list-style: none
 }
 
 img {
@@ -16,16 +24,16 @@ img {
    padding: 10px 0;
 }
 
+.site-title a {
+   display: block;
+}
+
 #header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin: 0 auto;
 }
-
-/* .site-title a {
-   display: block;
-   } */
 
 #header ul {
    display: flex;
@@ -43,3 +51,37 @@ img {
 #header a:hover {
    opacity: 0.7;
 }
+
+#mainvisual {
+   margin-bottom: 80px;
+}
+
+#about .content {
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+}
+
+#about img {
+   width: 100px;
+   height: 100px;
+   border-radius: 80%;
+   margin-right: 30px;
+}
+
+
+
+
+
+
+
+#bicycle ul {
+   display: flex;
+}
+
+#footer {
+   font-size: 13px;
+   text-align: center;
+   padding: 10px 0;
+}
+
