@@ -39,22 +39,36 @@ header img {
 #index   {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
-#index_text{
+.section_title{
     font-size: 1.125rem;
     /* text-align: left; */
     margin: 0 0 10px 0;
 }
 
-#index li {
-    font-size: 14px;
-    margin-bottom: 20px;
-    /* list-style-position: inside; */
+#index_list {
+    margin: 0 0 0 20px;
+    padding: 0px;
 }
 
+#index_list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 
+#index_list li:last-child{
+    margin-bottom: 0px;
+}
 
+#detail_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#detail_img {
+    width: 270px;
+    margin-right: 60px; 
+}
 
 
