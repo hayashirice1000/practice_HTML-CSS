@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 100%;
 }
 
@@ -40,14 +40,14 @@ header img {
     margin-bottom: 60px;
 }
 
-.descoriptions   {
+.descoriptions {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
 
-.section_title{
+.section_title {
     font-size: 1.125rem;
     margin: 0 0 10px 0;
 }
@@ -62,7 +62,7 @@ header img {
     margin-bottom: 20px;
 }
 
-#index_list li:last-child{
+#index_list li:last-child {
     margin-bottom: 0px;
 }
 
@@ -72,12 +72,13 @@ header img {
 
 #detail_div {
     display: flex;
+    align-items: flex-start;
 }
 
 #detail_img {
     width: 270px;
     height: auto;
-    margin-right: 60px; 
+    margin-right: 60px;
 }
 
 #detail_div h2 {
@@ -94,9 +95,16 @@ header img {
 }
 
 #detail_div dt {
+    margin: 0;
     width: 25%;
 }
 
 #detail_div dd {
+    margin: 0;
     width: 75%;
+}
+
+#detail_div p {
+    font-size: 18px;
+    font-style: bold;
 }
