@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.mainvisual {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 80px;
+    object-position: center top;
+    object-fit: cover;
+}
+
+
+.RecipeDiary {
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.RecipeDiary .title {
+    margin-bottom: 20px;
+}
+
+section .image {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
