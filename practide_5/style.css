@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.dish {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.dish img {
+    width: calc(100%/2);
+    object-fit: cover;
+}
+
+.dish div {
+    align-items: center;
+    width: calc(100%/2);
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.dish h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dish p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
