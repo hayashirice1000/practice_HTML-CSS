@@ -27,8 +27,55 @@ html {
     margin-bottom: 20px;
 }
 
-section .image {
-    width: 100%;
+.image {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 100px;
 }
+
+.image img {
+    width: calc(100% / 3);
+    height: auto;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.btn {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 20px 60px;
+}
+
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sns {
+    margin-bottom: 30px;
+}
+
+.sns a {
+    color: black;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        flex-direction: column;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+
+
