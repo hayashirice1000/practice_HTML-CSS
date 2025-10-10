@@ -1,7 +1,11 @@
-* {
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 html {
     font-size: 100%;
@@ -9,19 +13,20 @@ html {
 
 .dish {
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    margin-bottom: 60px;
 }
 
 .dish img {
     width: calc(100%/2);
+    height: 700px;
     object-fit: cover;
 }
 
 .dish div {
     align-items: center;
     width: calc(100%/2);
-    padding: 40px;
+    padding: 40px 5%;
     padding-bottom: 0;
 }
 
@@ -35,4 +40,98 @@ html {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+.contents .dish .list {
+    padding: 0;
+}
+
+.contents .dish .list .list-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #b7b7b7;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+
+.dish .list {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.list-item {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;;
+    font-size: 1rem;
+    color: #3f3f3f;
+}
+
+.dish .list ul {
+    list-style: none;
+}
+
+
+.dish .list ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #b7b7b7;
+    margin-bottom: 5px;
+    padding: 0 0 5px 0;
+}
+
+#howtomake {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+#howtomake li {
+    border-bottom: 1px dashed #b7b7b7;
+    padding-bottom: 0 0 5px 0;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-color: #3f3f3f;
+    padding: 20px 50px;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.SNS, p {
+    margin-bottom: 20px;
+}
+
+.SNS a {
+    color: #000;
+    margin: 0 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .dish {
+        flex-direction: column;
+    }
+
+    .dish img, .dish div {
+        width: 100%;
+    }
+
+    .dish img {
+        height: auto;
+    }
+}
+
+
+
 
